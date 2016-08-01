@@ -1,0 +1,7 @@
+#+TITLE:   Steve Buzonas's .config
+#+AUTHOR:  Steve Buzonas
+#+EMAIL:   steve@fancyguy.com
+#+STARTUP: content
+
+* Installation
+

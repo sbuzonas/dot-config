@@ -1,6 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-XDG_CONFIG_HOME="$(dirname ${BASH_SOURCE[0]})/.."
-source "$XDG_CONFIG_HOME/shell/xdg.env"
-source "$XDG_CONFIG_HOME/shell/env"
+source "$XDG_CONFIG_HOME/shell/env.sh"
 
+[ -z "$PS1" ] && return
+
+source "$XDG_CONFIG_HOME/shell/aliases.sh"

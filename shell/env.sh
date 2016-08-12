@@ -7,3 +7,5 @@ source "$XDG_CONFIG_HOME/shell/xdg-env.sh"
     export MANPATH="/usr/local/opt/coreutile/libexec/gnuman:$MANPATH"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+export PYTHONDONTWRITEBYTECODE=1

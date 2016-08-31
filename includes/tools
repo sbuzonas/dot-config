@@ -1,0 +1,59 @@
+[apply]
+	whitespace = fix
+[branch]
+	autoSetupMerge = true
+#	autoSetupRebase = remote
+#[commit]
+#	gpgSign = true
+[credential]
+	helper = osxkeychain
+[diff]
+	algorithm = histogram
+	context = 5
+	mnemonicPrefix = true
+	renames = copy
+[difftool]
+	prompt = false
+[difftool "ediff"]
+	cmd = emacs -nw --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
+[difftool "ediffclient"]
+	cmd = emacsclient -nw -a "" --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
+[fetch]
+	prune = true
+[format]
+	pretty = %C(cyan)%ad%C(auto)%d%n%h%C(reset) %s%n%C(magenta)%aN%C(reset) <%aE>%n
+[help]
+	autocorrect = true
+[log]
+	date = local
+	showRoot = true
+[merge]
+#	conflictStyle = diff3
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
+[mergetool]
+	keepBackup = false
+	prompt = false
+[notes]
+	mergeStrategy = cat_sort_uniq
+[push]
+	default = simple
+	followTags = true
+	recurseSubmodules = check
+[rebase]
+	autoStash = true
+	missingCommitsCheck = warn
+[repack]
+	writeBitmaps = true
+[status]
+	branch = true
+	showUntrackedFiles = all
+[versionsort]
+	prereleaseSuffix = alpha
+	prereleaseSuffix = beta
+	prereleaseSuffix = rc
+
+# Local Variables:
+# coding: utf-8
+# mode: gitconfig
+# End:

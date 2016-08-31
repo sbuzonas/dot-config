@@ -12,7 +12,6 @@ export XDG_LIB_HOME="$SYSTEM_LOCAL_HOME/lib"
 # Environment variable supported applications (CONFIG_HOME)
 export AWS_CONFIG_FILE="$XDG_CONFIG_HOME/aws/config"
 export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME/aws/credentials"
-export COMPOSER_HOME="$XDG_DATA_HOME/composer"
 export GIT_SSH_COMMAND="ssh -F $XDG_CONFIG_HOME/ssh/config "$@" 2>/dev/null"
 export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 export HTOPRC="$XDG_CONFIG_HOME/htop/htoprc"
@@ -29,4 +28,3 @@ export VAGRANT_DOTFILE_PATH="$XDG_DATA_HOME/vagrant"
 export VAGRANT_HOME="$XDG_DATA_HOME/vagrant"
 
 # Environment variable supported applications (CACHE_HOME)
-export COMPOSER_CACHE_DIR="$XDG_CACHE_HOME/composer"

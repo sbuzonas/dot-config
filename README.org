@@ -1,7 +1,41 @@
-#+TITLE:   Steve Buzonas's .config
-#+AUTHOR:  Steve Buzonas
-#+EMAIL:   steve@fancyguy.com
+#+TITLE:  dot-config
+#+AUTHOR: Steve Buzonas
+#+EMAIL:  steve@fancyguy.com
+
+#+OPTIONS: H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:nil skip:nil d:nil todo:nil pri:nil tags:not-in-toc
+#+EXPORT_EXCLUDE_TAGS: exclude
 #+STARTUP: content
+
+[[http://www.apache.org/licenses/LICENSE-2.0][https://img.shields.io/:license-Apache%202.0-blue.svg]]
+
+* Introduction
+
+  This repository is a collection of my configuration for various applications.
 
 * Installation
 
+  #+BEGIN_SRC shell
+  git clone http://github.com/slbmeh/dot-config $HOME/.config
+  $HOME/.config/bootstrap.sh
+  #+END_SRC
+
+* Workarounds
+
+  Here are the installation workarounds to provide compliance with some applications.
+
+** Bash
+
+   - *Option 1: (Global Configuration)*
+
+   - *Option 2: (Local Configuration)*
+
+     #+BEGIN_SRC shell
+     ln -s ~/.config/bash/bashrc ~/.bashrc
+     #+END_SRC
+
+** Zsh
+
+   - *Option 1: (Global Configuration)*
+
+   - *Option 2: (Local Configuration)*

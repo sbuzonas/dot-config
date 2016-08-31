@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Steve Buzonas
+	email = steve@fancyguy.com
+[include]
+	path = ~/.config/git/includes/core
+	path = ~/.config/git/includes/tools
+	path = ~/.config/git/includes/urls
+	path = ~/.config/git/includes/aliases

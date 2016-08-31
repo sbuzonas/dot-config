@@ -1,0 +1,19 @@
+[alias]
+	au	= add -u
+	ap	= add -p .
+	ca	= commit --amend --no-edit
+	cam = commit --amend
+	co	= checkout
+	ci	= commit
+	d   = diff --word-diff
+	dc  = diff --word-diff --cached
+	f   = fetch
+	p   = push
+	m   = merge
+	st	= status -sb
+	lt	= describe --tags --abbrev=0
+
+# Local Variables:
+# coding: utf-8
+# mode: gitconfig
+# End:

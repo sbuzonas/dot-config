@@ -1,0 +1,24 @@
+[url "git@github.com:"]
+	insteadOf		= "gh:"
+	insteadOf		= "github:"
+	pushInsteadOf	= "https://github.com/"
+	pushInsteadOf	= "git://github.com/"
+[url "git@gist.github.com:"]
+	insteadOf		= "gst:"
+	insteadOf		= "gist:"
+	pushInsteadOf	= "git://gist.github.com/"
+[url "git@bitbucket.org:"]
+	insteadOf		= "bb:"
+	insteadOf		= "bitbucket:"
+	pushInsteadOf	= "https://bitbucket.org/"
+	pushInsteadOf	= "git://bitbucket.org/"
+
+[url "git@github.com:CarnegieLearningWeb/"]
+	insteadOf	= cl:
+[url "git@github.com:slbmeh/carnegie-"]
+	insteadOf	= cl-fork:
+
+# Local Variables:
+# coding: utf-8
+# mode: gitconfig
+# End:

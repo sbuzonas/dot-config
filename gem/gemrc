@@ -1,0 +1,6 @@
+---
+:update_sources: true
+:sources:
+- https://rubygems.carnegielearning.com
+- https://rubygems.org
+gem: --no-document

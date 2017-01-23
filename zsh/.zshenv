@@ -3,12 +3,12 @@
 export XDG_CONFIG_HOME="$(dirname ${${(%):-%N}:a:h})"
 . "$XDG_CONFIG_HOME/shell/env.sh"
 
-WORDCHARS='*?_[]~=&;!#$%^(){}'
+export WORDCHARS='*?_[]~=&;!#$%^(){}'
 # default: "*?_-.[]~=/&;!#$%^(){}<>"
 # other:   "*?_-.[]~=&;!#$%^(){}<>\\"
-WORDCHARS=${WORDCHARS:s,/,,}
+export WORDCHARS=${WORDCHARS:s,/,,}
 
-HISTFILE="$XDG_DATA_HOME/zsh/history"
+export HISTFILE="$XDG_DATA_HOME/zsh/history"
 
 ## Sourcing OS-specific things
 if [[ -f $ZDOTDIR/${OS}.env ]] ; then
@@ -25,5 +25,7 @@ if [[ -f $ZDOTDIR/${HOSTPREFIX}.env ]] ; then
     fi
     source $ZDOTDIR/${HOSTPREFIX}.env
 fi
+
+export ZCOMPDUMPFILE="$XDG_DATA_HOME/zsh/zcompdump"
 
 [[ $TERM == "dumb" ]] && unsetopt zle && PS1='$ '

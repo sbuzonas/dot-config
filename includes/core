@@ -6,7 +6,7 @@
 	fsyncObjectFiles	= true
 	logAllRefUpdates	= true
 	pager				= less -x2
-	whitespace			= indent-with-non-tab,space-before-tab,trailing-space
+        whitespace			= tab-in-indent,space-before-tab,trailing-space
 
 # Local Variables:
 # coding: utf-8

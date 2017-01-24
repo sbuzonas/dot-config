@@ -12,6 +12,16 @@
 	m   = merge
 	st	= status -sb
 	lt	= describe --tags --abbrev=0
+    graph = log --graph --abbrev-commit --date=relative --branches
+    releases = log --tags --simplify-by-decoration --pretty="format:%C(cyan)%cd%C(auto)%d" --date=short
+    jira-tag = log --no-walk --tags --simplify-by-decoration --pretty="format:%C(cyan)%cd%C(auto)%d" --date=format:"%d/%b/%y"
+
+    email = "!f() { git config user.email || ( [ -n \"$EMAIL\" ] && echo $EMAIL ) || echo $(id -nu)@$(hostname -f); }; f"
+    user = "!f() { git config user.name || getent passwd $(id -un) | cut -d: -f5 | cut -d, -f1; }; f"
+
+    committers = "!f() { git log --use-mailmap --format='%aN <%aE>' | awk 'OFS=\"/\" {arr[$0]++} END {for (i in arr){print arr[i], i;}}' | sort -rn; }; f"
+    author-diffstat = "!f() { git log --use-mailmap --author=\"$1\" --format=tformat: --numstat | awk -v author=\"$1\" '{ adds += $1; dels += $2; total += $1 + $2 } END { if (total) {print total, adds, dels, author} }' | sort -rn; }; f"
+    committer-stat = "!f() { git committers | cut -d/ -f2- | xargs -I'{}' git author-diffstat '{}'; }; f"
 
 # Local Variables:
 # coding: utf-8

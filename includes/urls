@@ -1,22 +1,31 @@
-[url "git@github.com:"]
+[url "https://github.com/"]
 	insteadOf		= "gh:"
 	insteadOf		= "github:"
+[url "git@github.com:"]
 	pushInsteadOf	= "https://github.com/"
 	pushInsteadOf	= "git://github.com/"
+
 [url "git@gist.github.com:"]
 	insteadOf		= "gst:"
 	insteadOf		= "gist:"
 	pushInsteadOf	= "git://gist.github.com/"
-[url "git@bitbucket.org:"]
+
+[url "https://bitbucket.org/"]
 	insteadOf		= "bb:"
 	insteadOf		= "bitbucket:"
+[url "git@bitbucket.org:"]
 	pushInsteadOf	= "https://bitbucket.org/"
 	pushInsteadOf	= "git://bitbucket.org/"
 
 [url "git@github.com:CarnegieLearningWeb/"]
 	insteadOf	= cl:
-[url "git@github.com:slbmeh/carnegie-"]
+[url "git@github.com:sbuzonas/carnegie-"]
 	insteadOf	= cl-fork:
+
+[url "https://github.com/pharaoh-php"]
+     insteadOf = pharaoh:
+[url "https://github.com/sbuzonas/pharaoh-"]
+     insteadOf = pharaoh-fork:
 
 # Local Variables:
 # coding: utf-8

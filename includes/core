@@ -1,12 +1,14 @@
 [core]
-	attributesFile		= ~/.config/git/attributes
-	compression			= 9
-	editor				= emacs -nw
-	excludesFile		= ~/.config/git/ignore
-	fsyncObjectFiles	= true
-	logAllRefUpdates	= true
-	pager				= less -x2
-        whitespace			= tab-in-indent,space-before-tab,trailing-space
+    attributesFile   = ~/.config/git/attributes
+    compression      = 9
+    editor           = emacs -nw
+    excludesFile     = ~/.config/git/ignore
+    fsyncObjectFiles = true
+    logAllRefUpdates = true
+    pager            = less -x2
+    whitespace       = tab-in-indent,space-before-tab,trailing-space
+[column]
+    ui               = auto
 
 # Local Variables:
 # coding: utf-8

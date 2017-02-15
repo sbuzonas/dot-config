@@ -28,3 +28,5 @@ export LESS_TERMCAP_us=$(printf "\e[1;32m")
 export GPG_TTY=$(tty)
 
 source "$XDG_CONFIG_HOME/shell/aliases.sh"
+
+eval "$(rbenv init -)"

@@ -15,6 +15,7 @@ export HISTSIZE=100000
 SAVEHIST=100000
 
 command -v dircolors 2>&1 >/dev/null && eval "$(dircolors -b $XDG_CONFIG_HOME/shell/dircolors)"
+command -v gdircolors 2>&1 >/dev/null && eval "$(gdircolors -b $XDG_CONFIG_HOME/shell/dircolors)"
 export LESS=-R
 export LESS_TERMCAP_mb=$(printf "\e[1;31m")
 export LESS_TERMCAP_md=$(printf "\e[1;31m")

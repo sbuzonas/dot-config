@@ -6,6 +6,6 @@ source "$XDG_CONFIG_HOME/shell/xdg-env.sh"
     export PATH="/usr/local/opt/coreutile/libexec/gnubin:$PATH" &&
     export MANPATH="/usr/local/opt/coreutile/libexec/gnuman:$MANPATH"
 
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.local/share/node/bin:$PATH"
 
 export PYTHONDONTWRITEBYTECODE=1

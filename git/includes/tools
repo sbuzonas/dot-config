@@ -5,8 +5,6 @@
 #	autoSetupRebase = remote
 #[commit]
 #	gpgSign = true
-[credential]
-	helper = osxkeychain
 [diff]
 	algorithm = histogram
 	context = 5
@@ -28,6 +26,7 @@
 	date = local
 	showRoot = true
 [merge]
+    branchdesc = true
 #	conflictStyle = diff3
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
@@ -48,6 +47,8 @@
 [status]
 	branch = true
 	showUntrackedFiles = all
+[tag]
+    sort = version:refname
 [versionsort]
 	prereleaseSuffix = alpha
 	prereleaseSuffix = beta

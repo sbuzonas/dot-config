@@ -82,6 +82,7 @@ connection_type()
 precmd()
 {
     vcs_info
+    echo -ne "\033]0;${USER}@${HOST%%.*}: ${PWD/#$HOME/~}\007"
 }
 
 export PROMPT='%{%F{green}%}%n%{%f%}@%{%F{magenta}%}%m%{%f%} %{%F{242}%}in%{%f%} %{%F{011}%}%~%{%f%}

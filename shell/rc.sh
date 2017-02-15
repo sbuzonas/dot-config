@@ -25,4 +25,6 @@ export LESS_TERMCAP_so=$(printf "\e[1;44;33m")
 export LESS_TERMCAP_ue=$(printf "\e[0m")
 export LESS_TERMCAP_us=$(printf "\e[1;32m")
 
+export GPG_TTY=$(tty)
+
 source "$XDG_CONFIG_HOME/shell/aliases.sh"

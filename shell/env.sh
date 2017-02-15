@@ -7,6 +7,13 @@ source "$XDG_CONFIG_HOME/shell/xdg-env.sh"
     export MANPATH="/usr/local/opt/coreutils/share/man:$MANPATH" &&
     export INFOPATH="/usr/local/opt/coreutils/share/info:$INFOPATH"
 
-export PATH="$HOME/.local/bin:$HOME/.local/share/node/bin:$PATH"
+# Add node tools to path
+export PATH="$HOME/.local/share/node/bin:$PATH"
+
+# Add rbenv to path
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+# Add local scripts to path
+export PATH="$HOME/.local/bin:$PATH"
 
 export PYTHONDONTWRITEBYTECODE=1

@@ -1,1 +1,5 @@
 aws/config
+composer/vendor
+emacs/elpa
+gnupg/*
+!gnupg/gpg-agent.conf

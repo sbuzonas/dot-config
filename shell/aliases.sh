@@ -6,17 +6,17 @@ alias grep='command grep --color=auto'
 alias more='less'
 alias tree='tree -Csuh'
 
-edit() { $EDITOR $@ }
-clip() { $CLIPBOARD $@ }
-pager() { $PAGER $@ }
+edit() { $EDITOR $@ ; }
+clip() { $CLIPBOARD $@ ; }
+pager() { $PAGER $@ ; }
 
 alias ..='cd ..'
 alias ...='cd ../..'
 alias -- -='cd -'
 
-if gls >/dev/null 2>&1 ; then # GNU `ls'
+if command -v gls >/dev/null 2>&1 ; then # GNU `ls'
     LS_CMD='command gls --color'
-elif ls --color >/dev/null 2>&1; then # GNU `ls'
+elif command -v ls --color >/dev/null 2>&1 ; then # GNU `ls'
     LS_CMD='command ls --color'
 else # BSD ls
     LS_CMD='command ls -G'

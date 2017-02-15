@@ -18,3 +18,4 @@ shopt -s globstar  2>/dev/null # Glob recursively with **
 
 export XDG_CONFIG_HOME="$(dirname ${BASH_SOURCE[0]})/.."
 source "$XDG_CONFIG_HOME/shell/rc.sh"
+

@@ -1,4 +1,7 @@
+# Keep AWS creds out of git history
 aws/config
+aws/credentials
+
 composer/vendor
 emacs/elpa
 gnupg/*

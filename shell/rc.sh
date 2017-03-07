@@ -29,4 +29,4 @@ export GPG_TTY=$(tty)
 
 source "$XDG_CONFIG_HOME/shell/aliases.sh"
 
-eval "$(rbenv init -)"
+command -v rbenv 2>&1 >/dev/null && eval "$(rbenv init -)"

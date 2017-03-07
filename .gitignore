@@ -4,5 +4,6 @@ aws/credentials
 
 composer/vendor
 emacs/elpa
+emacs/.cask
 gnupg/*
 !gnupg/gpg-agent.conf

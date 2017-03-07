@@ -30,3 +30,4 @@ export GPG_TTY=$(tty)
 source "$XDG_CONFIG_HOME/shell/aliases.sh"
 
 command -v rbenv 2>&1 >/dev/null && eval "$(rbenv init -)"
+command -v pyenv 2>&1 >/dev/null && eval "$(pyenv init -)"

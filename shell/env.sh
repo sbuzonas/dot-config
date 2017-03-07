@@ -13,9 +13,6 @@ export PATH="/Library/TeX/texbin:$PATH"
 # Add node tools to path
 export PATH="$HOME/.local/share/node/bin:$PATH"
 
-# Add rbenv to path
-export PATH="$HOME/.rbenv/bin:$PATH"
-
 # Add local scripts to path
 export PATH="$HOME/.local/bin:$PATH"
 

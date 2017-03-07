@@ -17,6 +17,9 @@
      pushInsteadOf = "https://bitbucket.org/"
      pushInsteadOf = "git://bitbucket.org/"
 
+[url "git@bitbucket.org:tripcraft/"]
+     insteadOf = tripcraft:
+
 [url "https://github.com/pharaoh-php/"]
      insteadOf = pharaoh:
 [url "https://github.com/sbuzonas/pharaoh-"]

@@ -1,0 +1,50 @@
+# Utilities essential for everyday productivity
+brew "ack"
+brew "awscli"
+brew "aws-shell"
+brew "git"
+brew "gnupg"
+brew "pv"
+brew "rlwrap"
+brew "tmux"
+brew "tree"
+brew "wget"
+
+# Updated versions of existing OSX applications
+brew "bash"
+brew "emacs"
+brew "openssh"
+brew "php"
+brew "screen"
+brew "vim"
+brew "zsh"
+
+# GNU variant of toolchain bundles
+brew "binutils"
+brew "coreutils"
+brew "findutils"
+brew "moreutils"
+
+# GNU variants of common utilities
+brew "gnu-sed"
+brew "grep"
+
+# Useful utilities
+brew "git-lfs"
+brew "gs"
+brew "imagemagick"
+brew "lua"
+brew "p7zip"
+brew "pigz"
+brew "rename"
+brew "ssh-copy-id"
+brew "xz"
+brew "socat"
+brew "nmap"
+brew "xpdf"
+brew "packer"
+brew "hostess"
+brew "kubectl"
+brew "direnv"
+brew "zsh-completions"
+brew "starship"

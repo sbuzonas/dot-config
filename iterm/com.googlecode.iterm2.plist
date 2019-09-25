@@ -99,7 +99,7 @@
 		</array>
 	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>817 125 570 377 0 0 1680 1027 </string>
+	<string>817 50 650 452 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>962 101 570 377 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -797,12 +797,16 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Send Bell Alert</key>
+			<false/>
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Send Idle Alert</key>
 			<true/>
 			<key>Send New Output Alert</key>
 			<true/>
+			<key>Send Session Ended Alert</key>
+			<false/>
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
@@ -1222,6 +1226,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.termid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>

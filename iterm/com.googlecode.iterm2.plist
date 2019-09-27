@@ -52,7 +52,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAc7Gdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -99,9 +99,13 @@
 		</array>
 	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>817 50 650 452 0 0 1680 1027 </string>
+	<string>334 336 913 741 0 0 3008 1669 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>962 101 570 377 0 0 1680 1027 </string>
+	<string>223 918 1041 673 0 0 3008 1669 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>1507 0 1497 1669 0 0 3008 1669 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>3 0 1497 1669 0 0 3008 1669 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -770,7 +774,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>5000</integer>
+			<integer>20000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -867,14 +871,14 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1680, 1050}}</string>
+		<string>{{0, 0}, {3008, 1692}}</string>
 		<key>topLeft</key>
-		<string>{432, 768}</string>
+		<string>{766, 939}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>7A770B5D-F9CB-400A-BCB2-D08D3A30ED26</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>2</integer>
+	<integer>5</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1234,6 +1238,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>

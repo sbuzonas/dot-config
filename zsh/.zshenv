@@ -10,7 +10,6 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 # ZSH Setup
 ############
 export ZDOTDIR="${ZDOTDIR:-$XDG_CONFIG_HOME/zsh}"
-export ZCOMPDUMPFILE="${XDG_CACHE_HOME}/zsh/zcompdump"
 
 # default: *?_-.[]~=/&;!#$%^(){}<>
 export WORDCHARS='*?_[]~=&;!#$%^(){}'

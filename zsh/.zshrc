@@ -27,5 +27,5 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 autoload kubectl
 compdef _kubectl kubectl
 
-eval "$(direnv hook zsh)"
-eval "$(starship init zsh)"
+command -v direnv 2>&1 >/dev/null && eval "$(direnv hook zsh)"
+command -v starship 2>&1 >/dev/null && eval "$(starship init zsh)"

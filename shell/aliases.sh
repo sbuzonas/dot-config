@@ -11,7 +11,7 @@ LS_FLAGS='-h'
 if command -v gls >/dev/null 2>&1 ; then
     LS_FLAVOR='gnu'
     LS_BIN='gls'
-elif command -v ls --color >/dev/null 2>&1 ; then
+elif ls --color >/dev/null 2>&1 ; then
     LS_FLAVOR='gnu'
 else
     LS_FLAVOR='bsd'

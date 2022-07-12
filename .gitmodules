@@ -2,3 +2,7 @@
 	path = tmux
 	url = ./
 	branch = tmux
+[submodule "shell"]
+	path = shell
+	url = ./
+	branch = shell

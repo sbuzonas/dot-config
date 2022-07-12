@@ -6,3 +6,47 @@
 	path = shell
 	url = .
 	branch = shell
+[submodule "aws"]
+	path = aws
+	url = .
+	branch = aws
+[submodule "bash"]
+	path = bash
+	url = .
+	branch = bash
+[submodule "chef"]
+	path = chef
+	url = .
+	branch = chef
+[submodule "gem"]
+	path = gem
+	url = .
+	branch = gem
+[submodule "git"]
+	path = git
+	url = .
+	branch = git
+[submodule "gnupg"]
+	path = gnupg
+	url = .
+	branch = gnupg
+[submodule "htop"]
+	path = htop
+	url = .
+	branch = htop
+[submodule "iterm"]
+	path = iterm
+	url = .
+	branch = iterm
+[submodule "kitchen"]
+	path = kitchen
+	url = .
+	branch = kitchen
+[submodule "npm"]
+	path = npm
+	url = .
+	branch = npm
+[submodule "zsh"]
+	path = zsh
+	url = .
+	branch = zsh

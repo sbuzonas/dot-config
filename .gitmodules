@@ -1,52 +1,52 @@
 [submodule "tmux"]
 	path = tmux
 	url = .
-	branch = tmux
+	branch = config/tmux
 [submodule "shell"]
 	path = shell
 	url = .
-	branch = shell
+	branch = config/shell
 [submodule "aws"]
 	path = aws
 	url = .
-	branch = aws
+	branch = config/aws
 [submodule "bash"]
 	path = bash
 	url = .
-	branch = bash
+	branch = config/bash
 [submodule "chef"]
 	path = chef
 	url = .
-	branch = chef
+	branch = config/chef
 [submodule "gem"]
 	path = gem
 	url = .
-	branch = gem
+	branch = config/gem
 [submodule "git"]
 	path = git
 	url = .
-	branch = git
+	branch = config/git
 [submodule "gnupg"]
 	path = gnupg
 	url = .
-	branch = gnupg
+	branch = config/gnupg
 [submodule "htop"]
 	path = htop
 	url = .
-	branch = htop
+	branch = config/htop
 [submodule "iterm"]
 	path = iterm
 	url = .
-	branch = iterm
+	branch = config/iterm
 [submodule "kitchen"]
 	path = kitchen
 	url = .
-	branch = kitchen
+	branch = config/kitchen
 [submodule "npm"]
 	path = npm
 	url = .
-	branch = npm
+	branch = config/npm
 [submodule "zsh"]
 	path = zsh
 	url = .
-	branch = zsh
+	branch = config/zsh

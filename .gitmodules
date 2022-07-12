@@ -1,8 +1,8 @@
 [submodule "tmux"]
 	path = tmux
-	url = ./
+	url = .
 	branch = tmux
 [submodule "shell"]
 	path = shell
-	url = ./
+	url = .
 	branch = shell
